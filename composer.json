@@ -1,0 +1,23 @@
+{
+    "name": "cupoftea/filesystem",
+    "description": "Wrapper around league/flysystem",
+    "require": {
+        "league/flysystem": "^1.0",
+        "illuminate/filesystem": "^5.2",
+        "cupoftea/package": "^1.2",
+        "cupoftea/support": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Wittevrongel",
+            "email": "cupoftea696@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CupOfTea\\Filesystem\\": "src/"
+        }
+    }
+}
