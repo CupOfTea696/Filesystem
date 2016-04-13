@@ -23,7 +23,7 @@ class FilesystemManager
      *
      * @const string
      */
-    const VERSION = '0.0.0';
+    const VERSION = '1.0.0';
     
     /**
      * The array of resolved filesystem drivers.
