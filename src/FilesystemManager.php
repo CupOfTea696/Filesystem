@@ -41,7 +41,7 @@ class FilesystemManager
     
     /**
      * Retrieve a disk by name.
-     * 
+     *
      * @param  string  $name
      * @return \CupOfTea\Magick\Filesystem\FilesystemAdapter
      */
@@ -52,7 +52,7 @@ class FilesystemManager
     
     /**
      * Check if a disk exists.
-     * 
+     *
      * @param  string  $name
      * @return bool
      */
@@ -63,7 +63,7 @@ class FilesystemManager
     
     /**
      * Mount a disk.
-     * 
+     *
      * @param  string  $name
      * @param  string  $root
      * @param  bool  $ejectable
@@ -76,7 +76,7 @@ class FilesystemManager
     
     /**
      * Mount an anonymous disk.
-     * 
+     *
      * @param  string  $root
      */
     public function create($root)
@@ -86,7 +86,7 @@ class FilesystemManager
     
     /**
      * Create a new disk with the top-most common directory as root.
-     * 
+     *
      * @param  \CupOfTea\Magick\Filesystem\FilesystemAdapter  $disk1
      * @param  \CupOfTea\Magick\Filesystem\FilesystemAdapter  $disk2
      * @return \CupOfTea\Magick\Filesystem\FilesystemAdapter
@@ -129,7 +129,7 @@ class FilesystemManager
     
     /**
      * Eject a disk by name.
-     * 
+     *
      * @param  string  $name
      * @return void
      * @throws \InvalidArgumentException
@@ -147,7 +147,7 @@ class FilesystemManager
     
     /**
      * Create a new disk.
-     * 
+     *
      * @param  string  $root
      * @return \CupOfTea\Magick\Filesystem\FilesystemAdapter
      */
@@ -165,7 +165,7 @@ class FilesystemManager
     
     /**
      * Create a new Flysystem instance.
-     * 
+     *
      * @param  \League\Flysystem\Adapter\Local  $adapter
      * @return \League\Flysystem\Filesystem
      */
@@ -179,7 +179,7 @@ class FilesystemManager
     
     /**
      * Create a new LocalAdapter instance.
-     * 
+     *
      * @param  string  $root
      * @return \League\Flysystem\Adapter\Local
      */
