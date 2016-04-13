@@ -3,11 +3,28 @@
 use CupOfTea\Support\Str;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
+use CupOfTea\Package\Package;
 use League\Flysystem\Plugin\GetWithMetadata;
 use League\Flysystem\Filesystem as Flysystem;
 
 class FilesystemManager
 {
+    use Package;
+    
+    /**
+     * Package Name.
+     *
+     * @const string
+     */
+    const PACKAGE = 'CupOfTea/Filesystem';
+    
+    /**
+     * Package Version.
+     *
+     * @const string
+     */
+    const VERSION = '0.0.0';
+    
     /**
      * The array of resolved filesystem drivers.
      *
